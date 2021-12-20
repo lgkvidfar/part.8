@@ -1,0 +1,29 @@
+{
+  "name": "library_gql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.1",
+    "apollo-server": "^2.25.2",
+    "apollo-server-core": "^3.5.0",
+    "apollo-server-express": "^3.5.0",
+    "graphql": "^15.8.0",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-ws": "^5.5.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.2",
+    "mongoose-unique-validator": "^3.0.0",
+    "subscriptions-transport-ws": "^0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
